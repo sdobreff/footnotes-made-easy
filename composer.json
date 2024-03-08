@@ -1,0 +1,42 @@
+{
+    "name": "footnotes/footnotes-made-easy",
+    "description": "Add footnotes to you posts with ease",
+    "type": "wordpress-plugin",
+    "version": "2.0.0",
+    "authors": [
+      {
+        "name": "footnotes",
+        "email": "footnotes@gmail.com"
+      }
+    ],
+    "require": {
+      "php": ">=7.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "FME\\": "classes/"
+      },
+      "classmap": [
+        "classes/"
+      ]
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^8.0"
+    },
+    "replace": {
+      "symfony/string": "v5.0.11",
+      "symfony/options-resolver": "v5.0.11",
+      "symfony/polyfill-ctype": "v1.20.0"
+    },
+    "scripts": {
+      "vendor-install": "sh bin/install-dependencies.sh",
+      "lint": "phpcs .",
+      "lint-fix": "phpcbf .",
+      "wp-install": "wp-install --full --env-file .env --wp-composer-file composer.wp-install.json",
+      "wpunit": "codecept run wpunit",
+      "test": [
+        "@wpunit"
+      ]
+    }
+  }
+  

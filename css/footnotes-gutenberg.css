@@ -1,0 +1,13 @@
+.footnotes-made-easy-admin-button {
+    background: url(../assets/icon.svg) 3px 5px no-repeat !important;
+    background-size: 20px !important;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.mce-i-footnotes-made-easy-admin-button {
+	background: url(../assets/icon.svg) 0px 0px no-repeat !important;
+    background-size: 20px !important;
+}

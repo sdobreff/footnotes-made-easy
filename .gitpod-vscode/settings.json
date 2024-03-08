@@ -1,0 +1,59 @@
+{
+    "editor.detectIndentation": true,
+    "editor.renderWhitespace": "all",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "blockman.n01LineHeight": 23,
+    "blockman.n02EachCharFrameWidth": 9.321,
+    "blockman.n23AnalyzeSquareBrackets": true,
+    "phpsab.fixerEnable": true,
+    "phpsab.snifferEnable": true,
+    "phpsab.snifferMode": "onSave",
+    "phpsab.snifferTypeDelay": 250,
+    "phpsab.snifferShowSources": true,
+    "phpsab.executablePathCS": "/usr/local/bin/phpcs",
+    "phpsab.executablePathCBF": "/usr/local/bin/phpcbf",
+    "phpsab.standard": "WordPressOrg,WordPress-ExtraOrg,WordPress-DocsOrg",
+    /* WordPress-Extra,WordPress,,WordPress-Docs */
+    "phpsab.debug": false,
+    "phpsab.allowedAutoRulesets": [
+        ".phpcs.xml",
+        ".phpcs.xml.dist",
+        "phpcs.xml",
+        "phpcs.xml.dist",
+        "phpcs.ruleset.xml",
+        "ruleset.xml"
+    ],
+    "phpmd.rules": "codesize,design,unusedcode,naming",
+    "namespaceResolver.autoImportOnSave": true,
+    "phpResolver.phpLogFile": "/var/www/html-multi/wp-content/debug.log",
+    "phpResolver.phpLogFilePathRemote": "",
+    "phpResolver.phpLogFilePathLocal": "",
+    "phpResolver.phpBeautifierCommand": "/usr/bin/phpcbf",
+    "phpResolver.phpSnifferCommand": "/usr/bin/phpcs",
+    "phpResolver.phpStandards": "WordPress,WordPress-Extra,WordPress-Docs",
+        "php-docblocker.returnGap": true,
+    "php-docblocker.qualifyClassNames": true,
+    "php-docblocker.extra": [
+        "",
+        "@since latest"
+    ],
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "editor.wordWrap": "on",
+    "editor.guides.indentation": true,
+    "editor.inlayHints.enabled": "on",
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "[php]": {
+        "editor.defaultFormatter": "StoilDobreff.php-resolver"
+    },
+    "cSpell.words": [
+        "phpcs"
+    ],
+}

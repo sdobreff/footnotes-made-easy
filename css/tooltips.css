@@ -1,0 +1,32 @@
+@import 'compass';
+
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	word-wrap: break-word;
+	@include box-shadow(0 0 5px #ddd);
+}
+
+.ui-widget {
+	font-size: 1em;
+	font-size: 1rem;
+	line-height: 1.2;
+} 
+
+/* Round corners */
+.ui-corner-all {
+	@include border-radius(4px);
+}
+
+.ui-widget-content {
+	border: 1px solid #dddddd;
+	background: #eeeeee;
+	color: #333333;
+}
+
+/* hide the back links in the tooltips */
+.footnote-tooltip .footnote-back-link-wrapper {
+	display: none;
+}
